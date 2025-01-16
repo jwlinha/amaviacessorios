@@ -125,24 +125,25 @@ main {
     padding: 2rem;
 }
 
-/* Produtos */
+
 #produtos {
     display: flex;
     justify-content: space-between;
     gap: 15px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
 .galeria {
     text-align: center;
-    width: 250px;
+    width: 350px;
     max-width: 100%;
 }
 
 .galeria img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
     transition: transform 0.3s ease;
     border-radius: 8px;
@@ -155,8 +156,8 @@ main {
 
 .nome-produto {
     text-align: center;
-    font-size: 1rem;
-    margin-top: 13px;
+    font-size: 1.2rem;
+    margin-top: 30px;
     color: black;
 }
 
